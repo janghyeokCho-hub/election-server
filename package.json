@@ -1,0 +1,28 @@
+{
+  "name": "election-server",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janghyeokCho-hub/election-server.git"
+  },
+  "keywords": [],
+  "author": "janghyeokCho-hub",
+  "bugs": {
+    "url": "https://github.com/janghyeokCho-hub/election-server/issues"
+  },
+  "homepage": "https://github.com/janghyeokCho-hub/election-server#readme",
+  "dependencies": {
+    "apollo-server": "^3.12.0",
+    "graphql": "^16.6.0",
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
